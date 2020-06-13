@@ -11,7 +11,7 @@ variable "name" {
   type = string
 }
 
-# This is the folder where the key pair will be placed.
+# This is the folder where the key pair will be saved.
 variable "folder" {
   type = string
 }
