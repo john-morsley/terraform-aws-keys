@@ -1,4 +1,4 @@
-﻿#      _  __            _____      _      
+#      _  __            _____      _      
 #     | |/ /           |  __ \    (_)     
 #     | ' / ___ _   _  | |__) |_ _ _ _ __ 
 #     |  < / _ \ | | | |  ___/ _` | | '__|
@@ -24,14 +24,14 @@ resource "aws_key_pair" "this" {
 }
 
 resource "local_file" "public-key" {
-  
+
   filename = "${var.folder}/${var.name}.pub"
   content  = tls_private_key.this.public_key_openssh
 
 }
 
 resource "local_file" "private-key" {
-  
+
   filename = "${var.folder}/${var.name}.pem"
   content  = tls_private_key.this.private_key_pem
 

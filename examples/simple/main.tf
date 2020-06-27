@@ -12,8 +12,8 @@ module "keys" {
   source = "./../../../terraform-aws-keys"
   #source = "john-morsley/keys/aws"
 
-  name = var.name 
+  name = var.name
 
   folder = var.folder
-  
+
 }
