@@ -5,5 +5,5 @@
 #      \  / (_| | |  | | (_| | |_) | |  __/\__ \
 #       \/ \__,_|_|  |_|\__,_|_.__/|_|\___||___/
 
-name   = "example"
-folder = "keys"
+name   = "simple-example"
+folder = "simple-keys"
