@@ -1,4 +1,4 @@
-﻿# Terraform Key Pairs in AWS
+# Terraform Key Pairs in AWS
 
 ## Examples
 
